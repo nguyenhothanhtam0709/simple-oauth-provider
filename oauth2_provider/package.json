@@ -1,0 +1,22 @@
+{
+  "name": "oauth2_provider",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
+    "ramda": "^0.28.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
